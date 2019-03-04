@@ -82,4 +82,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy C:\Users\vlaptop2\Documents\Code\OIDConvert\OIDConvert\bin\Release\*.exe C:\Users\vlaptop2\Documents\Code\OIDConvert\*.exe</PostBuildEvent>
+  </PropertyGroup>
 </Project>
